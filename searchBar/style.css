@@ -1,0 +1,36 @@
+.form-row{
+    height: 50px;
+    width: 80%;
+    border-color:rgb(242, 187, 187)k;
+    border-style: solid;
+    background-color: rgb(251, 217, 217);
+    box-shadow: 0 1px 4px rgb(242, 187, 187); 
+    font-size: large;
+    border-style: none;
+    color: rgb(84, 81, 81);
+    border-radius: 5px;
+    align-items: center;
+}
+
+
+.search-input .form-control{
+    border-style: none;
+    
+    
+}
+
+.search-icon{
+    width: 25px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(243, 140, 140); ;
+}
+
+.form-control:focus {
+    border-color: transparent !important; /* Kenarlık rengini tamamen kaldırır */
+    box-shadow: none !important; /* Gölgeyi kaldırır */
+    outline: none !important; /* Focus outline'ı kaldırır */
+}
+
